@@ -16,14 +16,20 @@ Cmake
 
 #CMakeLists.txt
 PROJECT (HELLO)
+
 SET(SRC_LIST main.cpp)
+
 MESSAGE(STATUS "This is BINARY dir " ${HELLO_BINARY_DIR})
+
 MESSAGE(STATUS "This is SOURCE dir "${HELLO_SOURCE_DIR})
+
 ADD_EXECUTABLE(hello ${SRC_LIST})
 
 使⽤cmake，⽣成makefile⽂件
 cmake .
 使⽤make命令编译
+![image](https://user-images.githubusercontent.com/82080108/166851730-04a2c1dd-11e8-4790-8558-fc767b3e3677.png)
+
 
 
 sourcetree
