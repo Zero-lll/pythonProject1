@@ -13,6 +13,7 @@ win11 wsl2 ubuntu20.4 安装使用
 
 
 Cmake 
+
 #CMakeLists.txt
 PROJECT (HELLO)
 SET(SRC_LIST main.cpp)
@@ -24,4 +25,11 @@ ADD_EXECUTABLE(hello ${SRC_LIST})
 cmake .
 使⽤make命令编译
 
+
+sourcetree
+![image](https://user-images.githubusercontent.com/82080108/166846912-f061b956-90dc-48c1-99f0-a46b50e278e3.png)
+
+
+Docker
+参考：https://blog.csdn.net/u014042047/article/details/108768082
 
